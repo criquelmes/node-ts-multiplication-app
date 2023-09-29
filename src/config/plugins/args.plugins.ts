@@ -23,7 +23,7 @@ export const yarg = yargs(hideBin(process.argv))
   .options("n", {
     alias: "name",
     type: "string",
-    default: "miltiplication-table",
+    default: "multiplication-table",
     describe: "File name",
   })
   .options("d", {

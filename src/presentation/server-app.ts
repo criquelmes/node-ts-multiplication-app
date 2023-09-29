@@ -20,7 +20,7 @@ export class ServerApp {
 
     const table = new CreateTable().execute({ base, limit });
     const wasCreated = new SaveFile().execute({
-      filecontent: table,
+      fileContent: table,
       fileName: fileName,
       fileDestination: fileDestination,
     });
